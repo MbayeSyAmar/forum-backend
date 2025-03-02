@@ -22,9 +22,43 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Description
+Forum Backend is a TypeScript-based project that provides the backend functionality for a discussion forum, allowing users to create, reply to, and manage discussions.
+
+## Technologies Used
+- TypeScript
+- Node.js (Express.js)
+- MongoDB
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MbayeSyAmar/forum-backend.git
+   cd forum-backend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Configure the environment:
+   ```bash
+   cp .env.example .env
+   ```
+   Modify the `.env` file with your database information.
+4. Start the server:
+   ```bash
+   npm start
+   ```
+   The API will be accessible at `http://localhost:3000`
+
+## Main Features
+- User authentication (JWT-based)
+- Post creation, editing, and deletion
+- Commenting and replying to posts
+- Like and dislike system
+- Admin panel for managing discussions
+
 
 ## Project setup
 
